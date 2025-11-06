@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mandarin Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.webp" type="image/x-icon">
 </head>
 <body>
-    
+      <div class="game-wrap">
+    <header>
+      <h1>Mandarin</h1>
+      <div class="hud">
+        <div id="score">Score: 0</div>
+        <div id="vit">Vitamins: 0</div>
+        <button id="restart">Restart</button>
+      </div>
+    </header>
+    <canvas id="game" width="900" height="520"></canvas>
+    <footer>
+      <div class="info">Controls: ← → or A/D — Move, ↑ or Space — Jump</div>
+      <div>Cute mandarin!</div>
+    </footer>
+  </div>
+    <script src="script.js"></script>
 </body>
 </html>

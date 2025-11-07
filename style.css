@@ -1,11 +1,92 @@
-  :root{--bg:#e8f6f3;--panel:#ffffffcc;--accent:#ff8c24}
-  html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Arial;background:linear-gradient(#e8f6f3,#cfeee6);display:flex;align-items:center;justify-content:center}
-  .game-wrap{width:900px;max-width:96vw;background:var(--panel);box-shadow:0 10px 30px rgba(0,0,0,0.12);border-radius:12px;overflow:hidden}
-  header{display:flex;justify-content:space-between;padding:12px 16px;align-items:center}
-  h1{margin:0;font-size:18px;color:#333}
-  .hud{display:flex;gap:12px;align-items:center}
-  .hud div{background:#fff;padding:6px 10px;border-radius:8px;font-weight:600;box-shadow:0 3px 8px rgba(0,0,0,0.06)}
-  canvas{display:block;background:linear-gradient(#c2f0d9, #9fe6c9);width:100%;height:520px}
-  footer{padding:10px 16px;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#444}
-  button{background:var(--accent);border:none;color:white;padding:8px 12px;border-radius:8px;cursor:pointer;font-weight:700}
-  .info{font-size:13px;color:#555}
+  :root{
+      --bg:#e8f6f3;
+      --panel:#ffffffcc;
+      --accent:#ff8c24;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family:Inter,system-ui,Segoe UI,Arial;
+      background:linear-gradient(#e8f6f3,#cfeee6);
+      display:flex;
+      flex-direction:column; /* əlavə olundu */
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .game-wrap{
+      width:900px;
+      max-width:96vw;
+      background:var(--panel);
+      box-shadow:0 10px 30px rgba(0,0,0,0.12);
+      border-radius:12px;
+      overflow:hidden;
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      padding:12px 16px;
+      align-items:center;
+    }
+
+    h1{
+      margin:0;
+      font-size:18px;
+      color:#333;
+    }
+
+    .hud{
+      display:flex;
+      gap:12px;
+      align-items:center;
+    }
+
+    .hud div{
+      background:#fff;
+      padding:6px 10px;
+      border-radius:8px;
+      font-weight:600;
+      box-shadow:0 3px 8px rgba(0,0,0,0.06);
+    }
+
+    canvas{
+      display:block;
+      background:linear-gradient(#c2f0d9, #9fe6c9);
+      width:100%;
+      height:520px;
+    }
+
+    footer{
+      padding:10px 16px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      font-size:13px;
+      color:#444;
+    }
+
+    button{
+      background:var(--accent);
+      border:none;
+      color:white;
+      padding:8px 12px;
+      border-radius:8px;
+      cursor:pointer;
+      font-weight:700;
+    }
+
+    .info{
+      font-size:13px;
+      color:#555;
+    }
+ 
